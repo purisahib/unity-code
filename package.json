@@ -1,0 +1,52 @@
+{
+    "name": "unity-code",
+    "displayName": "Unity Code",
+    "description": "All snippets you need for Unity3D, Unity2D, UnityGame development",
+    "version": "0.0.1",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/purisahib/unity-code"
+	},
+    "author": {
+		"name": "Pradeep Puri Goswami",
+		"email": "pradeeppurigoswami7@gmail.com",
+		"url": "https://github.com/purisahib"
+	},
+    "bugs": {
+		"url": "https://github.com/purisahib/unity-code",
+		"email": "pradeeppurigoswami7@gmail.com"
+	},
+    "publisher": "purisahib",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+		"unity",
+        "unitycode",
+		"monobehaviour",
+		"csharp",
+		"gamedev",
+		"snippet",
+        "keywords",
+        "Statement",
+        "loop",
+        "c#"
+	],
+    "homepage": "https://github.com/purisahib/unity-code",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+		"color": "#b5bcca",
+		"theme": "dark"
+	},
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
