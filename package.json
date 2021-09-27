@@ -2,7 +2,7 @@
     "name": "unity-code",
     "displayName": "Unity Code",
     "description": "All snippets you need for Unity3D, Unity2D, UnityGame development",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
 		"type": "git",
 		"url": "https://github.com/purisahib/unity-code"
@@ -16,9 +16,9 @@
 		"url": "https://github.com/purisahib/unity-code",
 		"email": "pradeeppurigoswami7@gmail.com"
 	},
-    "publisher": "purisahib",
+    "publisher": "PradeepPuriGoswami",
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.17.0"
     },
     "categories": [
         "Snippets"
@@ -48,5 +48,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
-    }
+    },
+    "scripts": {
+		"build": "vsce package"
+	}
 }

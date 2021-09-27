@@ -1,65 +1,138 @@
 # unity-code README
-
-This is the README for your extension "unity-code". After writing up a brief description, we recommend including the following sections.
+Create Unity classes, methods, loop, and Statement easily
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+All the Unity code snippets you need. This extension intends to be the complete collection of Unity snippets for Visual Studio Code.
 
-For example if there is an image subfolder under your extension project workspace:
+It takes advantage of latest Visual Studio Code snippets features to create the code faster for you.
 
-\!\[feature X\]\(images/feature-x.png\)
+### MonoBehaviour
+Create game classes like `MonoBehaviours`, `NetworkBehaviours` and `StateMachineBehaviours` easily. Also create common methods like `Start()`, `Update()` or `OnTriggerEnter2D()` and log calls.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![MonoBehaviour](https://github.com/purisahib/unity-code/blob/master/images/usage-01.gif)
 
-## Requirements
+### Editor
+Create Editor classes like `Editor`, `EditorWindow` and `PropertyDrawer` as easy as it can be.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![Unity Editor](https://github.com/purisahib/unity-code/blob/master/images/usage-02.gif)
 
-## Extension Settings
+### ScriptableObject
+You never remember the property that goes with the `ScriptableObject` to create it via Unity create menu? Not a problem.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![ScriptableObject](https://github.com/purisahib/unity-code/blob/master/images/usage-03.gif)
 
-For example:
+## Installation
+As in any Visual Studio Code Extension you have several options to install:
 
-This extension contributes the following settings:
+* Enter the Visual Studio Code Marketplace, search for _Unity Code_ (or enter directly on [the extension page](https://marketplace.visualstudio.com/items?itemName=PradeepPuriGoswami.unity-code&ssr=false#overview)) and click on _Install_ button.
+* Inside Visual Studio Code, enter in the Extensios panel, search for _Unity Code_ and click on _Install_ button
+* Run the following command in the Command Palette:
+	```
+	ext install purisahib.unity-code
+	```
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## All the snippets
 
-## Known Issues
+Start typing the names to create the corresponding snippets.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+* Game classes:
+	* `MonoBehaviour`
+	* `StateMachineBehaviour`
+	* `NetworkBehaviour`
+	* `ScriptableObject`
 
-## Release Notes
+* Editor Classes:
+	* `Editor`
+	* `Editor with Reorderable List` **_(NEW)_**
+	* `EditorWindow`
+	* `PropertyDrawer`
+	* `ScriptableWizard`
 
-Users appreciate release notes as you update your extension.
+* MonoBehaviour Methods:
+	* `Awake()`
+	* `FixedUpdate()`
+	* `LateUpdate()`
+	* `OnAnimatorIK()`
+	* `OnAnimatorMove()`
+	* `OnApplicationFocus()`
+	* `OnApplicationPause()`
+	* `OnApplicationQuit()`
+	* `OnAudioFilterRead()`
+	* `OnBecameInvisible()`
+	* `OnBecameVisible()`
+	* `OnCollisionEnter()`
+	* `OnCollisionEnter2D()`
+	* `OnCollisionExit()`
+	* `OnCollisionExit2D()`
+	* `OnCollisionStay()`
+	* `OnCollisionStay2D()`
+	* `OnConnectedToServer()`
+	* `OnControllerColliderHit()`
+	* `OnDestroy()`
+	* `OnDisable()`
+	* `OnDisconnectedFromServer()`
+	* `OnDrawGizmos()`
+	* `OnDrawGizmosSelected()`
+	* `OnEnable()`
+	* `OnFailedToConnect()`
+	* `OnFailedToConnectToMasterServer()`
+	* `OnGUI()`
+	* `OnJointBreak()`
+	* `OnJointBreak2D()`
+	* `OnMasterServerEvent()`
+	* `OnMouseDown()`
+	* `OnMouseDrag()`
+	* `OnMouseEnter()`
+	* `OnMouseExit()`
+	* `OnMouseOver()`
+	* `OnMouseUp()`
+	* `OnMouseUpAsButton()`
+	* `OnNetworkInstantiate()`
+	* `OnParticleCollision()`
+	* `OnParticleTrigger()`
+	* `OnPlayerConnected()`
+	* `OnPlayerDisconnected()`
+	* `OnPostRender()`
+	* `OnPreCull()`
+	* `OnPreRender()`
+	* `OnRenderImage()`
+	* `OnRenderObject()`
+	* `OnSerializeNetworkView()`
+	* `OnServerInitialized()`
+	* `OnTransformChildrenChanged()`
+	* `OnTransformParentChanged()`
+	* `OnTriggerEnter()`
+	* `OnTriggerEnter2D()`
+	* `OnTriggerExit()`
+	* `OnTriggerExit2D()`
+	* `OnTriggerStay()`
+	* `OnTriggerStay2D()`
+	* `OnValidate()`
+	* `OnWillRenderObject()`
+	* `Reset()`
+	* `Start()`
+	* `Update()`
 
-### 1.0.0
+* Debug class
+	* `Debug.DrawLine()`
+	* `Debug.DrawRay()`
 
-Initial release of ...
+* Some useful code snippets:
+	* `Debug.Log()` (type _`log`_)
+	* `Debug.LogError()` (type _`logerror`_)
+	* `Debug.LogWarning()` (type _`logwarning`_)
+	* `Debug.LogException()`  (type _`logexception`_)
 
-### 1.0.1
+* Unity Keywords
+* C# Keywords
+* Loop, Statement etc.
+* special Words.
 
-Fixed issue #.
+If you have any suggestions, [open an issue in the Github project](https://github.com/purisahib/unity-code) page and I'll add them as soon as I can :).
 
-### 1.1.0
+If you like the color theme of the previews, you can download it here: [Base16 Ocean Dark Extended Theme](https://marketplace.visualstudio.com/items?itemName=PradeepPuriGoswami.unity-code&ssr=false#overview).
 
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Thank you for downloading this extension.
 
 **Enjoy!**
