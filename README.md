@@ -10,17 +10,17 @@ It takes advantage of latest Visual Studio Code snippets features to create the 
 ### MonoBehaviour
 Create game classes like `MonoBehaviours`, `NetworkBehaviours` and `StateMachineBehaviours` easily. Also create common methods like `Start()`, `Update()` or `OnTriggerEnter2D()` and log calls.
 
-![MonoBehaviour](https://github.com/purisahib/unity-code/blob/master/images/usage-01.gif)
+![MonoBehaviour](https://raw.githubusercontent.com/purisahib/unity-code/54b2156c1411a7c24b03e1e3ee8634bfe491295f/images/usage-01.gif)
 
 ### Editor
 Create Editor classes like `Editor`, `EditorWindow` and `PropertyDrawer` as easy as it can be.
 
-![Unity Editor](https://github.com/purisahib/unity-code/blob/master/images/usage-02.gif)
+![Unity Editor](https://raw.githubusercontent.com/purisahib/unity-code/54b2156c1411a7c24b03e1e3ee8634bfe491295f/images/usage-02.gif)
 
 ### ScriptableObject
 You never remember the property that goes with the `ScriptableObject` to create it via Unity create menu? Not a problem.
 
-![ScriptableObject](https://github.com/purisahib/unity-code/blob/master/images/usage-03.gif)
+![ScriptableObject](https://raw.githubusercontent.com/purisahib/unity-code/54b2156c1411a7c24b03e1e3ee8634bfe491295f/images/usage-03.gif)
 
 ## Installation
 As in any Visual Studio Code Extension you have several options to install:
